@@ -1,0 +1,184 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Montserrat";
+}
+
+body {
+    font-family:"Montserrat";
+    text-align: center;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+.big-heading {
+    font-family:"Montserrat";
+    font-size:3.5rem;
+    line-height:1.5;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#title {
+background-color: #ff4c68;
+color:white;
+}
+.container-fluid {
+    padding:7% 15%;
+}
+
+
+
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+    font-family:"Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding:0 18px;
+}
+
+.nav-link {
+    font-size: 1.2 rem;
+    font-family:"Montserrat";
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 50%;
+    transform: rotate(25deg);
+    position:absolute;
+    right: 30%
+}
+
+#features {
+    padding: 7% 15%;
+    background-color:white;
+    position:relative;
+
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+
+.icon {
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+}
+
+.carousel-item {
+    padding:7% 15%;
+
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+
+    }
+
+}
+
+.true-love {
+    font-family: "Montserrat";
+    color: white;
+    font-size: 3.5rem;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#cta {
+    height: 400px;
+    background-color: #ff4c68;
+}
+
+.download-bottom {
+    margin-left:3%;
+}
+
+.bottom-icon {
+    padding-right: 10px;
+}
+
+#footer {
+    background-color: white;
+    height: 250px;
+}
+
+.foot {
+    padding-top: 110px;
+}
+
+.foot-icon {
+    position: relative;
+    left: 16px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.feature-title {
+    font-size: 1.5 rem;
+}
